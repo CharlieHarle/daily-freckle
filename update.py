@@ -101,7 +101,7 @@ class Update:
                         logger.info('Successfully logged - freckle_name={} project_id={} minutes={} date={} description={}'.format(freckle_name, project_id, minutes, date, description))
                     else:
                         logger.warning('Failed to log - status_code={} freckle_name={} project_id={} minutes={} date={} description={}'.format(response.status_code, freckle_name, project_id, minutes, date, description))
-    logger.info('Finished!')
+        logger.info('Finished!')
 
 
 if __name__ == '__main__':
